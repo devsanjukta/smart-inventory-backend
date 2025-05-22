@@ -8,7 +8,7 @@ namespace SmartInventory.Core.DTOs
 {
     public class AppUserResponseDTO
     {
-        public string userName { get; set; }
-        public string email { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
     }
 }

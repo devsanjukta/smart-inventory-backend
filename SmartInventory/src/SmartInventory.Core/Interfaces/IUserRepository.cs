@@ -9,7 +9,7 @@ namespace SmartInventory.Core.Interfaces
 {
     public interface IUserRepository
     {
-        public Task<AppUser> Register(AppUser user);
-        public Task<AppUser> GetUserByEmail(string email);
+        public Task<AppUser> RegisterAsync(AppUser user);
+        public Task<AppUser> GetUserByEmailAsync(AppUser user);
     }
 }
